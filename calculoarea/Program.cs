@@ -22,6 +22,11 @@ class Program
         {
             return 2 * (ancho + alto);
         }
+
+     static double CalcularDiagonal(double ancho, double alto)
+    {
+        return Math.Sqrt(ancho * ancho + alto * alto);
+    }
      static void CalcularCirculo()
     {
         Console.Write("Ingrese el radio del círculo: ");
@@ -30,5 +35,7 @@ class Program
         double perimetro = 2 * Math.PI * radio;
         Console.WriteLine($"Área: {area:F2}, Circunferencia: {perimetro:F2}");
     }
+
+    
 
 }
