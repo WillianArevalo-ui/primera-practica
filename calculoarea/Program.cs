@@ -22,5 +22,13 @@ class Program
         {
             return 2 * (ancho + alto);
         }
+     static void CalcularCirculo()
+    {
+        Console.Write("Ingrese el radio del círculo: ");
+        double radio = Convert.ToDouble(Console.ReadLine());
+        double area = Math.PI * radio * radio;
+        double perimetro = 2 * Math.PI * radio;
+        Console.WriteLine($"Área: {area:F2}, Circunferencia: {perimetro:F2}");
+    }
 
 }
