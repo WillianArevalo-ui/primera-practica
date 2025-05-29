@@ -20,7 +20,7 @@ class Program
         }
         static double Calcularperimetro(double ancho, double alto)
         {
-            return 2 * (ancho + alto);
+            return 3 * (ancho + alto);
         }
 
      static double CalcularDiagonal(double ancho, double alto)
